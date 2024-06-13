@@ -15,7 +15,7 @@ export const App = () => {
       <Welcome />   
        <Routes>
         <Route path='/Card' element= {<Card />}/>
-        <Route path='*' element= {<NotFound />}/>        
+        <Route path='/*' element= {<NotFound />}/>        
        </Routes>
     </> 
   )
