@@ -7,7 +7,7 @@ export const Welcome = ({ ficha }) => {
     <>
       <h1>instrumento de evaluación</h1>
       <h2>Ficha: {ficha} </h2>
-      <a  className="into" href="">Ingresar</a>
+      <Link className="into" to="/card">Ingresar</Link>
       {/* link para que direccione al componente Card (cambiamos la etiqueta a por Link) */}
     </>
   )
