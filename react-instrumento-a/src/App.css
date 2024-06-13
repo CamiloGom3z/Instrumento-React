@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.into {
+  width: 20rem;
+  height: 4rem;
+  font-size: 2rem;
+  background-color: #26333f;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #1c79e3;
+  cursor: pointer;
+}
+
+.into:hover,
+.into:focus {
+  color: #fff;
+  background-color: #23202d;
+}
